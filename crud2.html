@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head><title>CRUD</title>
+<style>
+        table, th, td 
+        {
+            margin:10px 0;
+            border:solid 1px #333;
+            padding:2px 4px;
+            font:15px Verdana;
+        }
+        th {
+            font-weight:bold;
+        }
+		
+#loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-bottom: 16px solid blue;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  visibility:hidden;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+		
+    </style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="js/product.js">
+  
+  var script_url = "https://script.google.com/macros/s/AKfycbwbxgH3o_NHy2ecBec9pInUdpfamwHQFXXc7edsrm8qv94Fbpp87g3cyOambLVw27Jt/exec";
+  
+</script>
+
+
+
+
+
+
+
+  
+  
+</head>
+<body>
+<div align="center">
+<h1> Sample CRUD</h1>
+<form >
+ID
+<input type = "text" name ="id" id="id">
+NAME
+<input type = "text" name ="name" id="name">
+ADDRESS
+<input type = "text" name ="address" id="address">
+AGE
+<input type = "text" name ="age" id="age">
+
+</form>
+
+<div id="loader"></div>
+
+<p id="re"></p>
+
+<input type = "button"  id = "b1" onClick="insert_value()" value = "Create"><br><br>
+<input type="button" onclick="read_value()" value="Read" /><br><br>
+<input type="button" onclick="update_value()" value="Update" /><br><br>
+<input type="button" onclick="delete_value()" value="Delete" /><br><br>
+<a href="https://docs.google.com/spreadsheets/d/1eZ9pQmnxu-b92LIZJINKSAUMpkZANW6Tq5heGHu-7gY/edit#gid=0" target="_blank">Click here to open Spread Sheet </a>
+<div id="showData"></div>
+</div>
+</body>
+
+<html>

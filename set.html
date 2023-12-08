@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>JavaScript Get & Set Input Text Value</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/product.css">
+
+
+
+
+
+
+        <script>
+
+            function toggle() {
+                var blur = document.getElementById('blur');
+                blur.classList.toggle('active');
+                var popup = document.getElementById('popup');
+                popup.classList.toggle('active');
+            }
+    
+    
+    
+           
+    
+    
+    
+            
+    
+    
+            
+    
+    
+    
+           
+    
+            
+    
+        </script>
+    </head>
+
+
+
+
+
+
+    <body>
+        
+        
+        
+        
+
+<div class="popup" id="popup">
+    <div class="pop-row" >
+        <div class="col-left">
+            <select name="" id="name">
+                <option value="bl">BLACK COFFEE</option>
+                <option value="am">AMERICANO</option>
+                <option value="es">ESPRESSO</option>
+                <option value="ca">CAPPOCINO</option>
+                <option value="la">LATTE</option>
+                <option value="mo">MOCHA</option>
+                <option value="ma">MACCHIATO</option>
+                <option value="re">RED EYE</option>
+                <option value="co">CORTADO</option>
+             </select>
+
+
+
+
+
+
+
+
+             <div class="content">
+                
+
+
+
+
+                <div id="bl" class="data">
+                    <div class="img-info">
+                        <img src="../src/blackcoffee.jpg" class="coffee-img">
+                    </div>
+                    <div class="coffee-desc">
+                        <p>Black Coffee</p>
+                        <p>Just Coffee</p>
+                    </div>
+                    <div class="price">
+                        <label for="">PRICE</label>
+                        <input type="text" value="150" id="price" disabled>
+                        <label for="">Quantity</label>
+                        <input type="text" name="" onkeyup="calc(this.value)">
+                        <label for="">BILL</label>
+                        <input type="text" name="" id="totalpurchase" disabled>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div id="am" class="data">
+                    
+                    <div class="img-info">
+                        
+                    </div>
+                    <p>am</p>
+                    <div class="price">
+                        
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+    
+
+
+
+
+                <div id="es" class="data">
+                    <div class="img-info">
+                        
+                    </div>
+                    <p>es</p>
+                    <div class="price">
+                        
+                    </div>
+                </div>
+
+
+                <div id="ca" class="data">
+                    <div class="img-info">
+                        
+                    </div>
+                    <p>ca</p>
+                    <div class="price">
+                        
+                    </div>
+                </div>
+
+
+                <div id="la" class="data">
+                    <div class="img-info">
+                        
+                    </div>
+                    <p>la</p>
+                    <div class="price">
+                        
+                    </div>
+                </div>
+
+
+                <div id="mo" class="data">
+                    <div class="img-info">
+                        
+                    </div>
+                    <p>mo</p>
+                    <div class="price">
+                        
+                    </div>
+                </div>
+
+
+                <div id="ma" class="data">
+                    <div class="img-info">
+                        
+                    </div>
+                    <p>ma</p>
+                    <div class="price">
+                        
+                    </div>
+                </div>
+
+
+                <div id="re" class="data">
+                    <div class="img-info">
+                        
+                    </div>
+                    <p>re</p>
+                    <div class="price">
+                        
+                    </div>
+                </div>
+
+
+                <div id="co" class="data">
+                    <div class="img-info">
+                        
+                    </div>
+                    <p>co</p>
+                    <div class="price">
+                        
+                    </div>
+                </div>
+
+
+
+             </div>
+
+
+        </div>
+
+        <div class="col-right">
+        <a href="#" onclick="toggle()">BUT</a>
+        </div>
+
+    </div>
+</div>
+
+        
+    </body>
+</html>

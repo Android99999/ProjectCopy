@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    height: 3em;
+    padding: 0.2em;
+    position: relative;
+}
+nav {
+    
+    width: 100%;
+    height: 2.6em;
+    padding: 0.5em;
+    
+}
+.logo {
+    float: left;
+    width: 12em;
+    
+}
+.logo a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgb(218, 126, 51);
+
+}
+
+
+.logo :hover {
+     border-bottom: solid 2px;
+}
+
+.navi {
+    position: relative;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    display: inline;
+   
+    margin: 0 1.5em 0 3em;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.9em;
+    padding: 0.2em 0.5em;
+}
+
+li  a:hover {
+    color: rgb(218, 126, 51);
+    background-color: rgb(53, 53, 53);
+    
+}
+
+
+
+
+
+
+
+
+.contact-sec{
+    background-color:rgb(218, 126, 51);
+    width: 100%;
+    height: fit-content;
+    text-align: center; 
+    padding: 1.5em;
+}
+
+.contact-sec h2 span{
+    padding: 0.5em 1em 0.3em;
+    border-bottom: 4px solid black;
+}
+
+.contact-sec h2{
+    font-size: 2em;
+
+}
+
+form {
+    background-color: azure;
+    width: 34%;
+    margin: 2em auto;
+    height: 42em;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+label{
+    display: block;
+    text-align: left;
+    font-weight: 700;
+}
+
+input, textarea{
+    width: 100%;
+    resize: vertical;
+    padding: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 1em;
+    border: solid 1px gray;
+    font-size: 0.8em;
+    margin: 0.5em auto;
+    caret-color: rgb(218, 126, 51);
+    
+}
+
+.concern-sub {
+    background-color: rgb(218, 126, 51);
+    font-size: 0.9em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    border-style: none;
+}
+
+
+
+
+#loader {
+    border: 10px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 10px solid rgb(218, 126, 51);
+    border-right: 10px solid rgb(211, 147, 94);
+    border-bottom: 10px solid rgb(209, 140, 83);
+    border-left:10px solid rgb(212, 132, 66);
+    outline: 1px solid black;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    visibility:hidden;
+    margin: 2em auto;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+  .submit-btn{
+    background-color: rgb(218, 126, 51);
+    letter-spacing: 0.2em;
+    padding: 1em;
+    font-weight: 700;
+    font-size: 1em;
+
+  }
+
+  .sheet {
+    visibility: hidden;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot-con{
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    padding:0.3em;
+}
+.icon-con {
+    
+    width: 100%;
+    height: 100%;
+    padding: 0.4em 0 0 0;
+}
+.icon-con a{
+   color: #eeeeee;
+    padding: 0 2em 0 2em;
+}
+
+
+
+.fa-facebook-square{
+    font-size: 1.6em;
+}
+.fa-facebook-messenger{
+    font-size: 1.6em;
+}
+.fa-instagram-square{
+    font-size: 1.6em;
+}
+.fa-twitter-square{
+    font-size: 1.6em;
+}
+.fa-discord{
+    font-size: 1.6em;
+}
+.fa-youtube-square{
+    font-size: 1.6em;
+}
+
+
+

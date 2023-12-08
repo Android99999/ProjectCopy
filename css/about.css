@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    height: 3em;
+    padding: 0.2em;
+    position: relative;
+}
+nav {
+    
+    width: 100%;
+    height: 2.6em;
+    padding: 0.5em;
+    
+}
+.logo {
+    float: left;
+    width: 12em;
+    
+}
+.logo a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgb(218, 126, 51);
+
+}
+
+
+.logo :hover {
+     border-bottom: solid 2px;
+}
+
+.navi {
+    position: relative;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    display: inline;
+   
+    margin: 0 1.5em 0 3em;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.9em;
+    padding: 0.2em 0.5em;
+}
+
+li  a:hover {
+    color: rgb(218, 126, 51);
+    background-color: rgb(53, 53, 53);
+    
+}
+
+
+
+
+
+
+
+
+.main-info {
+    width: 100%;
+    height: 10em;
+    text-align: center;
+    padding: 1em 0 0 0;
+    background-color: rgb(218, 126, 51);;
+}
+
+.main-info h1{
+margin-bottom: 1em;
+}
+
+.main-info span{
+    padding: 0 3em 0.3em;
+    border-bottom: solid 3px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main-body {
+    width: 100%;
+    height: 25em;
+    padding: 2em 2.1em 2em 2.1em;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.main-body .mission{
+ float:left;
+ background-color: azure;
+ width: 24.2em;
+ height: 20em;
+ margin-right: 1em;
+ box-shadow: 5px 10px 8px #888888;
+}
+
+.main-body .vision{
+ float:left;
+ background-color: azure;
+ width: 24.2em;
+ height: 20em;
+ margin-right: 1em;
+ box-shadow: 5px 10px 8px #888888;
+}
+
+.main-body .objective{
+ float:left;
+ background-color: azure;
+ width: 24.2em;
+ height: 20em;
+ box-shadow: 5px 10px 8px #888888;
+}
+
+.mission .picturecon{
+    width: 50%;
+    height: 100%;
+    background-image: url(../src/Mission.jpg);
+    background-size: cover;
+    float: left;
+}
+
+.mission .textcon{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 1.5em .5em 1.5em .5em;
+   
+    
+}
+
+.mission .textcon h4{
+    margin: .5em 0 2em 0;
+    padding :.5em;
+    border-bottom: solid 2px rgb(218, 126, 51);
+}
+
+.mission .textcon p{
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+
+.vision .picturecon{
+    width: 50%;
+    height: 100%;
+    background-image: url(../src/vision.jpg);
+    background-size: cover;
+    float: left;
+}
+
+.vision .textcon{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 1.5em .5em 1.5em .5em;
+   
+    
+}
+
+.vision .textcon h4{
+    margin: .5em 0 2em 0;
+    padding :.5em;
+    border-bottom: solid 2px rgb(218, 126, 51);
+}
+
+.vision .textcon p{
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+
+
+
+
+.objective .picturecon{
+    width: 50%;
+    height: 100%;
+    background-image: url(../src/objectives.jpg);
+    background-size: cover;
+    float: left;
+}
+
+.objective .textcon{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 1.5em .5em 1.5em .5em;
+   
+    
+}
+
+.objective .textcon h4{
+    margin: .5em 0 2em 0;
+    padding :.5em;
+    border-bottom: solid 2px rgb(218, 126, 51);
+}
+
+.objective .textcon p{
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+.dev-sec {
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    height: 24em;
+    color: white;
+    text-align: center;
+    padding:1em;
+    
+}
+
+.dev-con {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+   
+}
+
+.devpic-con {
+    background-image: url(../src/kentaro.jpg);
+    margin: auto;
+    width: 8em;
+    height: 8em;
+    border-radius: 4em;
+    background-size: cover;
+   
+    
+}
+.dev-con h3 {
+ padding: 1em 1.3em 2em 1.3em;
+}
+
+
+
+.dev-con h3 span{
+    padding: 1em 1.3em 1em 1.3em;
+    border-bottom: solid 4px  rgb(218, 126, 51) ;
+}
+
+.devtext-con {
+    margin: 2em 0 0 0 ;
+}
+
+
+
+
+
+
+.location {
+    
+    width: 100%;
+    height: 32em;
+    position: relative;
+    padding: 1em;
+}
+
+.loc-con{
+    
+    width: 100%;
+    position: relative;
+    
+}
+
+.loctext-con {
+    
+    width: 50%;
+    height: 100%;
+    float: left;
+    line-height: 3em;
+    
+}
+iframe {
+    float: right;
+}
+.loctext-con h1 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.loctext-con h1 span{
+    text-align: center;
+    padding: 0.2em 1em;
+    border-bottom: solid 4px rgb(218, 126, 51);
+    
+}
+
+
+
+
+
+
+
+.foot-con{
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    padding:0.3em;
+}
+.icon-con {
+    
+    width: 100%;
+    height: 100%;
+    padding: 0.4em 0 0 0;
+}
+.icon-con a{
+   color: #eeeeee;
+    padding: 0 2em 0 2em;
+}
+
+
+
+.fa-facebook-square{
+    font-size: 1.6em;
+}
+.fa-facebook-messenger{
+    font-size: 1.6em;
+}
+.fa-instagram-square{
+    font-size: 1.6em;
+}
+.fa-twitter-square{
+    font-size: 1.6em;
+}
+.fa-discord{
+    font-size: 1.6em;
+}
+.fa-youtube-square{
+    font-size: 1.6em;
+}

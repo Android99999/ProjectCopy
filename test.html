@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/63867d5e0d.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="src/icons8-coffee-cup-60.png">
+    <link rel="stylesheet" href="https://icons8.com/icon/FDjSToQQutQe/coffee-cup">
+    <link rel="stylesheet" href="css/product.css">
+
+    <script>
+
+        function toggle() {
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active');
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active');
+        }
+
+
+
+        $(document).ready(function(){
+            $("#name").on('change', function(){
+                $(".data").hide();
+                $("#" + $(this).val()).fadeIn(700);
+            }).change();
+        });
+
+
+
+        function calc(value) {
+            var price = document.getElementById("price").value;
+            totalpurchase = price * value;
+
+            document.getElementById('totalpurchase').value = totalpurchase;
+        }
+
+
+
+
+    </script>
+
+
+
+
+
+
+</head>
+<body>
+    <div style="margin:auto; width:100%; background-color:aqua; padding: 1em;">
+    
+
+
+    <label for="">Value:</label>
+    <input type="text" name="" value="300" id="price" disabled>
+    <br><br>   
+
+    <label for="">Quantity:</label>
+    <input type="text" name="" onkeyup="calc(this.value)">
+    <br><br>   
+    
+
+    <label for="">Total Purchase:</label>
+    <input type="text" id="totalpurchase" name="">
+    
+    
+    </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
